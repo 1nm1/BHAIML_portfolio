@@ -29,8 +29,10 @@ Then when you open the notebook, add this environment as your kernel. You will h
 
 ## Summarized Findings and Next Steps
 
-# FINISH TODO
+Based on these the analysis and findings, we determined that the Decision Tree model performed the best. In expanding on this model and looking at the important inputs to the model, we found the following features to be the most critical:
 
-The findings here are included as a summary. For all findings and a full analysis, please see the Conclusions section in the notebook.
+1. Duration
+2. Number of Employees
+3. Consumer Confidence Index
 
-Year and odometer seem to have a profound impact on the price of the car. There are a few exceptions such as diesel vehicles, some trucks, etc. These anomalies could be targeted for maximizing revenue/profit. Based on the year and odometer, the company should target newer cars as well as 'classic' cars from the 50's and 60's. In both cases, the lower the odometer the better.
+With this in mind, we can direct marketing campaigns around groups that exhibit these features or during these times (like months or when indexes hit specific values). This is turn will improve our overall conversion rate into long term deposits and boosts our profits.
