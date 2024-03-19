@@ -36,6 +36,8 @@ The aim is to deliver a model capable of reliably predicting the agricultural yi
 
 ## Results
 
+Detailed results can be found in the capstone notebook. In addition, all images can be found in the images directory.
+
 Three models were used in this study:
 
 - Linear Regression
