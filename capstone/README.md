@@ -36,6 +36,14 @@ The aim is to deliver a model capable of reliably predicting the agricultural yi
 
 ## Results
 
+Three models were used in this study:
+
+- Linear Regression
+- Random Forest Regression
+- XGBoost Regression
+
+MAE, MSE, and R^2 showed that the Random Forest Regression model performed the best and therefore was selected as the final model.
+
 Based on the findings from the model, there are several major take-aways:
 
 1. Crop type proves to be the biggest indicator of yield by tonnage and root crops show to produce the most.
