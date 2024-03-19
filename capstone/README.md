@@ -1,18 +1,22 @@
 # Agricultural Yield Prediction From Environmental Factors
 
-**Nathan Meek**
+Prepared by Nathan Meek (Q1 2024)
 
 ## Executive summary
+
+The escalating impact of climate change poses a significant threat to global food security. This analysis and report aim to model agricultural yields based on environmental factors that are becoming increasingly unpredictable due to climate change. Utilizing data from the Food and Agriculture Organization of the United Nations (FAOSTAT) and the World Bank Group Climate Change Portal and following the CRISP-DM methodology, this study focuses on regression models to predict crop yields under various climate scenarios. This approach facilitates informed decision-making regarding crop selection, irrigation practices, and resource allocation to mitigate the adverse effects of climate change on agriculture.
+
+Key findings indicate that crop type, pesticide use, temporal factors related to climate phenomena, and critical growth period conditions (temperature and rainfall) significantly influence agricultural yield. Root crops and increased pesticide usage are notably associated with higher yields, while temperature fluctuations and rainfall impact crop growth. The study emphasizes the importance of selecting resilient crops and utilizing pesticides efficiently, alongside the need for international collaboration and sustainable agricultural technologies to enhance food security in the face of climate change.
+
+## Research Question
+
+Can we model agricultural yield based on environmental factors especially as become more unpredictable due to climate change?
 
 ## Rationale
 
 As the world continues to warm through climate change, food available and security is increasingly at risk. Understanding the expected yields for certain products in various regions of the world can give insight into where food scarcity might become a pressing issue in the future. This understanding is critical for planning and implementing strategies to mitigate the impact of climate change on agriculture.
 
 Predictive models can be developed to forecast crop yields under different climate scenarios, allowing policymakers and farmers to make informed decisions about crop selection, irrigation practices, and resource allocation. International cooperation and investment in sustainable agricultural technologies will be essential to enhance food security globally, especially in areas most susceptible to the adverse effects of climate change.
-
-## Research Question
-
-Can we model agricultural yield based on environmental factors especially as become more unpredictable due to climate change?
 
 ## Data Sources
 
@@ -32,23 +36,35 @@ The aim is to deliver a model capable of reliably predicting the agricultural yi
 
 ## Results
 
-Based on the findings from the model, there are three major take-aways:
+Based on the findings from the model, there are several major take-aways:
 
-1. What you're growing can have a profound impact on the overall yield. Root crops tend to produce much more than other crops.
-2. Pesticide use is the biggest contributor to yield if the type of crop is ignored. Pesticide use tends to have a profound impact on the overall yield.
-3. Temperature appears to have more of an influence versus rainfall. This could be an important finding as heat waves or domes may lead to more crop loss vs drought (although both are damaging).
+1. Crop type proves to be the biggest indicator of yield by tonnage and root crops show to produce the most.
+2. Pesticide use is the biggest contributor to yield excluding the crop type. Pesticide use tends to have a profound impact on the overall yield. More pesticide use leads to higher crop yield.
+3. The year also tends to have an impact on the overall crop yield. This may be due to El Nino/La Nina weather patterns or other historical events like wars, famines, etc.
+4. Temperature and Rainfall during critical months shows to influence crop yield. This appears to be roughly during months in the spring and fall which, as we know, are crucial to plant growth.
+5. Overall investment in agriculture can influence crop yield but it tends to be less impactful than some of the other features outlined above
 
-The importances can be found in the images directory located [here (all features)](./crop_yield/images/feature_importances.png) and [here (no crop types in features)](./crop_yield/images/feature_importances_no_items.png)
+The importances can be found in the images directory located [here (all features)](./crop_yield/images/feature_importances.png) and [here (excluding crop types)](./crop_yield/images/feature_importances_no_items.png).
 
 If a region is looking to maximize its agricultural yield, growers need to select more productive crops and consider the use of pesticides to maximize their output. Regions with large temperature fluctuations should be avoided if possible (deserts as an example).
 
 ## Next steps
 
-What suggestions do you have for next steps?
+### Expanding Research and Model
+
+This study could be further expanded upon by using more environmental factors or higher fidelity data either in terms of geographical areas (smaller regions) or time (weekly values). Additionally, more models and architectures could be evaluated that could potentially improve the overall accuracy.
+
+### Expanding Access and Deployment
+
+The deployment of the model developed here is limited at best. It's only available within the notebook provided. To provide more access, this could be hosted as a web application with a public URL.
+
+### Driving Further Action to Impact Climate Change
+
+This analysis and report could be shared with political organizations, who in turn, can influence environmental policy and drive action to address climate change. Improving access and deployment as outlined above could facilitate this process.
 
 ## Outline of project
 
-- [Link to notebook 1]()
+- [Link to notebook](capstone.ipynb)
 
 ### Contact and Further Information
 
